@@ -1,7 +1,8 @@
 # patreon-php
 
-[![Support on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.herokuapp.com%2Fsoatok&style=flat)](https://patreon.com/soatok)
-[![Linux Build Status](https://travis-ci.org/soatok/patreon-php.svg?branch=master)](https://travis-ci.org/soatok/patreon-php)
+[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dsoatok%26type%3Dpatrons&style=for-the-badge)](https://patreon.com/soatok)
+
+[![Build Status](https://github.com/soatok/patreon-php/actions/workflows/ci.yml/badge.svg)](https://github.com/soatok/patreon-php/actions)
 [![Latest Stable Version](https://poser.pugx.org/soatok/patreon/v/stable)](https://packagist.org/packages/soatok/patreon)
 [![Latest Unstable Version](https://poser.pugx.org/soatok/patreon/v/unstable)](https://packagist.org/packages/soatok/patreon)
 [![License](https://poser.pugx.org/soatok/patreon/license)](https://packagist.org/packages/soatok/patreon)
