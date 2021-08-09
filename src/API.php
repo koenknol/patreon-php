@@ -302,7 +302,7 @@ class API
         // In our case, this includes entire API request, with endpoint and parameters
 
         $ch = curl_init();
-        if (!is_resource($ch)) {
+        if (!$ch) {
             throw new CurlException('Could not initialize cURL handle');
         }
         curl_setopt($ch, CURLOPT_URL, $api_request);
