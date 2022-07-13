@@ -112,6 +112,7 @@ class OAuth
         if (!defined('CURLOPT_SSL_VERIFYPEER')) {
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
         }
+        // fix
 //         curl_setopt($ch, CURLE_SSL_CACERT, $this->getLatestCaCerts());
 
         $response = curl_exec($ch);
